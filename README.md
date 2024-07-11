@@ -16,10 +16,11 @@ This project is a Maven-based automation testing suite for the Nimap Infotech Po
 - TestNG
 - ChromeDriver (or other browser drivers as needed)
 
-## Project Setup
+## Install dependencies
 
-1. **Clone the repository**
+Ensure Maven is installed and run the following command to install dependencies:
+- mvn clean install
 
-   ```sh
-   git clone https://github.com/yourusername/nimap-infotech-automation.git
-   cd nimap-infotech-automation
+## Configure Test Data
+
+Update the src/test/resources/config.properties file with the required test data and parameters.
